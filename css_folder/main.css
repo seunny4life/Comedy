@@ -98,6 +98,7 @@ a:hover {
 .index{
   color: rgb(0, 0, 0);
 }
+
 /* Table Styles here for Home Page */
 section.container-content div table {
   overflow: hidden;
@@ -111,10 +112,12 @@ th {
   overflow: hidden;
   overflow: hidden;
   width: 200px;
+  text-align: center;
+
 }
 
 section.container div table img {
-  width: 200px;
+  width: 150px;
 }
 
 section.container {

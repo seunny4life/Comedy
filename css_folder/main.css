@@ -5,7 +5,6 @@ body {
   color: white;
 }
 
-
 .main-style {
   background-color: rgb(122, 119, 119);
   margin-right: 10%;
@@ -76,14 +75,12 @@ nav.navbar ul.navbar-nav li.nav-item a:hover:not(.active) {
 
 /* Making the Nav bar goes vertical, if the screen is resized */
 @media screen and (max-width: 600px) {
-
   nav.navbar ul.navbar-nav li.home,
   nav.navbar ul.navbar-nav li.nav-item {
     float: none;
   }
 }
 /* End of Nav bar*/
-
 
 /* For all the links */
 a {
@@ -96,7 +93,7 @@ a:hover {
   text-decoration: underline;
 }
 
-.index{
+.index {
   color: rgb(0, 0, 0);
 }
 
@@ -109,16 +106,13 @@ section.container-content div table {
 
 section.container div table td,
 th {
-  border: 1px solid rgb(90, 89, 89);
-  overflow: hidden;
-  overflow: hidden;
-  width: 200px;
+  border: 1px solid rgb(136, 134, 134);
+  width: 150px;
   text-align: center;
-
 }
 
 section.container div table img {
-  width: 150px;
+  width: 100px;
 }
 
 section.container {
@@ -129,14 +123,13 @@ section.container {
   margin-right: 10%;
   margin-left: 10%;
   width: auto;
+  background-color: #d3cfcf;
 }
 
 section.container .container-content {
   overflow: auto;
-  padding: 0%;
+  padding: 0;
   margin: 0;
-  background-color: #a3a3a3;
-  border: 0.5px solid #bdbdbd;
 }
 
 section.container .container-content div.left {

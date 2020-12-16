@@ -36,7 +36,6 @@ nav.navbar {
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  position: -webkit-sticky;
   /* Safari */
   position: sticky;
   top: 0;
@@ -140,7 +139,6 @@ section.container .container-content div.left {
 section.container .container-content div.left img {
   width: 200px;
   background-color: #0051ff;
-  height: 0 auto;
 }
 
 .right {

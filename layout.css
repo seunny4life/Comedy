@@ -1,5 +1,7 @@
+/* Developed by Aderibigbe Oluwaseun  */
+
 body {
-  background-color: rgb(77, 76, 76);
+  background-color: rgb(184, 35, 35);
   margin: 0;
   padding: 0;
   color: white;
@@ -26,7 +28,7 @@ body {
 }
 
 .main-style .page-header div h2 {
-  padding-left: 2%;
+  text-align: center;
 }
 
 /* Nav  Style */
@@ -92,26 +94,23 @@ a:hover {
   text-decoration: underline;
 }
 
-.index {
-  color: rgb(0, 0, 0);
-}
-
 /* Table Styles here for Home Page */
 section.container-content div table {
-  overflow: hidden;
-  border: 1px solid rgb(95, 93, 93);
   text-align: center;
+  clear: both;
+  overflow: auto;
 }
 
 section.container div table td,
 th {
-  border: 1px solid rgb(136, 134, 134);
-  width: 150px;
+  border: 1px solid #575555;
+  width: 200px;
   text-align: center;
 }
 
 section.container div table img {
-  width: 100px;
+  width: 20px;
+  clear: right;
 }
 
 section.container {
@@ -119,34 +118,73 @@ section.container {
   color: black;
   padding: 2%;
   padding-bottom: 2%;
-  margin-right: 10%;
-  margin-left: 10%;
+  margin-right: 20%;
+  margin-left: 20%;
   width: auto;
-  background-color: #d3cfcf;
+  background-color: #dfd9d9;
 }
+/* Developed by Aderibigbe Oluwaseun  */
 
 section.container .container-content {
   overflow: auto;
-  padding: 0;
-  margin: 0;
 }
 
-section.container .container-content div.left {
-  float: left;
-  overflow: auto;
+/* Form section*/
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
 }
 
-section.container .container-content div.left img {
-  width: 200px;
-  background-color: #0051ff;
+input[type="text"],
+select {
+  width: 100%;
+  padding: 2% 1%;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
 }
 
-.right {
-  overflow: auto;
-  padding-left: 2%;
-  padding-right: 10%;
-  padding-bottom: 10%;
+input[type="email"],
+select {
+  width: 100%;
+  padding: 2% 1%;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
 }
+
+textarea {
+  width: 100%;
+  border: 1px solid rgb(20, 20, 20);
+  border-radius: 4px;
+  height: 200px;
+  border: none;
+  text-align: left;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: #1a5f1d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  padding: 2% 1%;
+  font-family: "Arial";
+  font-size: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+/* Form section ends */
 
 /* Footer */
 footer.footer {
@@ -168,16 +206,4 @@ footer a:hover:not(.active) {
   background-color: #111;
 }
 
-/*FaceBook Logo */
-.fa {
-  font-size: 2px;
-  text-align: center;
-  text-decoration: none;
-  overflow: auto;
-  clear: right;
-}
-
-.fa-facebook {
-  background: #0051ff;
-  color: white;
-}
+/* Developed by Aderibigbe Oluwaseun  */

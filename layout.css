@@ -106,7 +106,7 @@ body {
   section.container div table td,
   th {
     border: 1px solid #575555;
-    width: 150px;
+    width: 200px;
     text-align: center;
   }
   
@@ -120,8 +120,8 @@ body {
     color: black;
     padding: 2%;
     padding-bottom: 2%;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 20%;
+    margin-left: 20%;
     width: auto;
     background-color: #d3cfcf;
 
@@ -129,8 +129,7 @@ body {
   
   section.container .container-content {
     overflow: auto;
-  padding: 0;
-  margin: 0;
+   
   }
 
   /* Footer */

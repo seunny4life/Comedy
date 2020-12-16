@@ -1,153 +1,209 @@
+/* Developed by Aderibigbe Oluwaseun  */
+
 body {
-    background-color: rgb(184, 35, 35);
-    margin: 0;
-    padding: 0;
-    color: white;
-  }
-  
-  
-  .main-style {
-    background-color: rgb(122, 119, 119);
-    margin-right: 10%;
-    margin-left: 10%;
-    margin-bottom: 2%;
-  }
-  
-  .main-style .page-header h1 {
-    font-size: 50px;
-    color: white;
-    background-color: #111;
-    padding: 4%;
-    text-align: center;
-  }
-  
-  .main-style .page-header a {
-    list-style: none;
-    text-decoration: none;
-  }
-  
-  .main-style .page-header div h2 {
-    text-align: center;
-  }
-  
-  /* Nav  Style */
-  nav.navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    /* Safari */
-    position: sticky;
-    top: 0;
-  }
-  
-  nav.navbar ul.navbar-nav {
-    color: black;
-    list-style-type: none;
-    overflow: auto;
-    background-color: #333;
-    padding: 0;
-    margin: 0;
-  }
-  
+  background-color: rgb(184, 35, 35);
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.main-style {
+  background-color: rgb(122, 119, 119);
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 2%;
+}
+
+.main-style .page-header h1 {
+  font-size: 50px;
+  color: white;
+  background-color: #111;
+  padding: 4%;
+  text-align: center;
+}
+
+.main-style .page-header a {
+  list-style: none;
+  text-decoration: none;
+}
+
+.main-style .page-header div h2 {
+  text-align: center;
+}
+
+/* Nav  Style */
+nav.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+nav.navbar ul.navbar-nav {
+  color: black;
+  list-style-type: none;
+  overflow: auto;
+  background-color: #333;
+  padding: 0;
+  margin: 0;
+}
+
+nav.navbar ul.navbar-nav li.nav-item {
+  text-align: center;
+  float: right;
+  border-right: 1px solid #bbb;
+}
+
+nav.navbar ul.navbar-nav li.home {
+  float: left;
+}
+
+nav.navbar ul.navbar-nav li.nav-item a {
+  font-size: 20px;
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav.navbar ul.navbar-nav li.nav-item a:hover:not(.active) {
+  background-color: #111;
+}
+
+/* Making the Nav bar goes vertical, if the screen is resized */
+@media screen and (max-width: 600px) {
+  nav.navbar ul.navbar-nav li.home,
   nav.navbar ul.navbar-nav li.nav-item {
-    text-align: center;
-    float: right;
-    border-right: 1px solid #bbb;
+    float: none;
   }
-  
-  nav.navbar ul.navbar-nav li.home {
-    float: left;
-  }
-  
-  nav.navbar ul.navbar-nav li.nav-item a {
-    font-size: 20px;
-    display: block;
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  nav.navbar ul.navbar-nav li.nav-item a:hover:not(.active) {
-    background-color: #111;
-  }
-  
-  /* Making the Nav bar goes vertical, if the screen is resized */
-  @media screen and (max-width: 600px) {
-  
-    nav.navbar ul.navbar-nav li.home,
-    nav.navbar ul.navbar-nav li.nav-item {
-      float: none;
-    }
-  }
-  /* End of Nav bar*/
-  
-  
-  /* For all the links */
-  a {
-    list-style: none;
-    text-decoration: none;
-    color: rgb(30, 59, 221);
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Table Styles here for Home Page */
-  section.container-content div table {
-    text-align: center;
-    clear: both;
-    overflow: auto;
-  }
-  
-  section.container div table td,
-  th {
-    border: 1px solid #575555;
-    width: 200px;
-    text-align: center;
-  }
-  
-  section.container div table img {
-    width: 20px;
-    clear: right;
-  }
-  
-  section.container {
-    overflow: auto;
-    color: black;
-    padding: 2%;
-    padding-bottom: 2%;
-    margin-right: 20%;
-    margin-left: 20%;
-    width: auto;
-    background-color: #d3cfcf;
+}
+/* End of Nav bar*/
 
-  }
-  
-  section.container .container-content {
-    overflow: auto;
-   
-  }
+/* For all the links */
+a {
+  list-style: none;
+  text-decoration: none;
+  color: rgb(30, 59, 221);
+}
 
-  /* Footer */
-  footer.footer {
-    text-align: center;
-    background-color: rgb(0, 0, 0);
-    overflow: hidden;
-    padding-bottom: 1%;
-  }
-  
-  footer a {
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    list-style-type: none;
-    overflow: hidden;
-  }
-  
-  footer a:hover:not(.active) {
-    background-color: #111;
-  }
-  
+a:hover {
+  text-decoration: underline;
+}
+
+/* Table Styles here for Home Page */
+section.container-content div table {
+  text-align: center;
+  clear: both;
+  overflow: auto;
+}
+
+section.container div table td,
+th {
+  border: 1px solid #575555;
+  width: 200px;
+  text-align: center;
+}
+
+section.container div table img {
+  width: 20px;
+  clear: right;
+}
+
+section.container {
+  overflow: auto;
+  color: black;
+  padding: 2%;
+  padding-bottom: 2%;
+  margin-right: 20%;
+  margin-left: 20%;
+  width: auto;
+  background-color: #dfd9d9;
+}
+/* Developed by Aderibigbe Oluwaseun  */
+
+section.container .container-content {
+  overflow: auto;
+}
+
+/* Form section*/
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 2% 1%;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+}
+
+input[type="email"],
+select {
+  width: 100%;
+  padding: 2% 1%;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+}
+
+textarea {
+  width: 100%;
+  border: 1px solid rgb(20, 20, 20);
+  border-radius: 4px;
+  height: 200px;
+  border: none;
+  text-align: left;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: #1a5f1d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  padding: 2% 1%;
+  font-family: "Arial";
+  font-size: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+/* Form section ends */
+
+/* Footer */
+footer.footer {
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  overflow: hidden;
+  padding-bottom: 1%;
+}
+
+footer a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+footer a:hover:not(.active) {
+  background-color: #111;
+}
+
+/* Developed by Aderibigbe Oluwaseun  */
